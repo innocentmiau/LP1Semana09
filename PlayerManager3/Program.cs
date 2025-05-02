@@ -59,6 +59,7 @@ namespace PlayerManager3
                         InsertPlayer();
                         break;
                     case "2":
+                        playerList.Sort();
                         ListPlayers(playerList);
                         break;
                     case "3":
@@ -138,7 +139,6 @@ namespace PlayerManager3
             // /////////////////// //
             // COMPLETE ME PLEASE! //
             // /////////////////// //
-            
             Console.WriteLine("Insira um score: ");
             int score = int.Parse(Console.ReadLine());
             foreach (Player player in GetPlayersWithScoreGreaterThan(score))
@@ -159,6 +159,7 @@ namespace PlayerManager3
             // /////////////////// //
             // COMPLETE ME PLEASE! //
             // /////////////////// //
+            playerList.Sort();
             foreach (Player player in playerList)
             {
                 if (player.Score > minScore) yield return player;

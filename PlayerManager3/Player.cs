@@ -1,6 +1,8 @@
-﻿namespace PlayerManager3
+﻿using System;
+
+namespace PlayerManager3
 {
-    public class Player
+    public class Player : IComparable
     {
         
         public string Name { get; }
@@ -12,9 +14,9 @@
             Score = score;
         }
 
-        public int CompareTo(Player other)
+        public int CompareTo(object obj)
         {
-            if (other == null) return 1;
+            if (obj == null || !(obj is Player other)) return 1;
             return other.Score - this.Score;
         }
         
