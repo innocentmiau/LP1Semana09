@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager2", "PlayerMan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager3", "PlayerManager3\PlayerManager3.csproj", "{030359C4-848D-4F79-AF9E-DF1399EA3FF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager4", "PlayerManager4\PlayerManager4.csproj", "{9EB34D35-B771-4CF9-9C23-8286C95B3B8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{030359C4-848D-4F79-AF9E-DF1399EA3FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{030359C4-848D-4F79-AF9E-DF1399EA3FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{030359C4-848D-4F79-AF9E-DF1399EA3FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB34D35-B771-4CF9-9C23-8286C95B3B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB34D35-B771-4CF9-9C23-8286C95B3B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB34D35-B771-4CF9-9C23-8286C95B3B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB34D35-B771-4CF9-9C23-8286C95B3B8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
